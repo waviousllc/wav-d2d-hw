@@ -1,0 +1,3 @@
+[submodule "wav-chisel-common-hw"]
+	path = wav-chisel-common-hw
+	url = git@github.com:waviousllc/wav-chisel-common-hw.git
