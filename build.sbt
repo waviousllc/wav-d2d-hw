@@ -13,7 +13,8 @@ lazy val root = (project in file("."))
     name := "wav-d2d-hw",
     libraryDependencies ++= Seq(
       "edu.berkeley.cs" %% "chisel3" % "3.4.2",
-      "edu.berkeley.cs" %% "chiseltest" % "0.3.2" % "test"
+      "edu.berkeley.cs" %% "chiseltest" % "0.3.2" % "test",
+      "com.github.scopt" %% "scopt" % "4.0.1"               //not sure why I ened this here?
     ),
     scalacOptions ++= Seq(
       "-Xsource:2.11",
