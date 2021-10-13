@@ -1,1 +1,4 @@
 
+[submodule "wav-wlink-hw"]
+	path = wav-wlink-hw
+	url = git@github.com:waviousllc/wav-wlink-hw.git
