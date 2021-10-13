@@ -1,10 +1,8 @@
 #Minimal makefile for Wlink
 SHELL=/bin/bash
 
-CONFIG		?= wav.wlink.Wlink1LaneAXI32bitConfig
+CONFIG		?= wav.d2d.Wlink8LaneWaviousD2DOneAXIConfig
 OUTPUTDIR	?= $(CONFIG)
-TEST_CONFIG	?= wav.wlink.AXI32bit1LaneWlinkTestConfig
-TEST_OUTPUTDIR	?= $(TEST_CONFIG)
 
 
 
